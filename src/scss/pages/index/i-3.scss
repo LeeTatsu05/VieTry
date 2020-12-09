@@ -1,0 +1,35 @@
+.ss-3{
+	background: rgb(246, 246, 246);
+	text-align: center;
+	margin: 30px 0px;
+	h3{
+		text-align: center;
+		padding:  30px 0px 50px 0px;
+		font-size: 25px;
+	}
+	.item{
+		position: relative;
+		.hide{
+			position: absolute;
+			top: -40%;
+			left: 25%;
+			font-size: 100px;
+			color: rgba(0, 0, 0, 0.116);
+		}
+		.name{
+			padding: 0px 20px 30px 20px;
+			h4{
+				color: #00796b;
+				font-size: 28px;
+				font-weight: 600;
+				padding-top: 10px;
+				span{
+					color: black;
+				}
+			}
+			p{
+				font-size: 18px;
+			}
+		}
+	}
+}

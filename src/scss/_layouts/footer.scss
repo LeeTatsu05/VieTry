@@ -1,0 +1,221 @@
+.footer {
+    background: #fafbff;
+    font-family: Mulish-Medium;
+    .footer__wrapper {
+        padding: 80px 0 50px;
+        .container {
+            .footer__row {
+                display: flex;
+                flex-wrap: wrap;
+                margin-left: -15px;
+                margin-right: -15px;
+                .listItem {
+                    -ms-flex: 0 0 25%;
+                    flex: 0 0 25%;
+                    max-width: 25%;
+                    @media (max-width: 1024.98px) {
+                        -ms-flex: 0 0 50%;
+                        flex: 0 0 50%;
+                        max-width: 50%;
+                    }
+                    @media (max-width: 575.98px) {
+                        -ms-flex: 0 0 100%;
+                        flex: 0 0 100%;
+                        max-width: 100%;
+                    }
+                    .footer__logo {
+                        @media (max-width: 1024.98px) {
+                            padding: 0 25px;
+                        }
+                        margin: 0 0 20px;
+                        img {
+                            width: 145px;
+                        }
+                    }
+                    p {
+                        @media (max-width: 1024.98px) {
+                            padding: 0 25px;
+                        }
+                        @media (max-width: 425px) {
+                            font-size: 12px;
+                            padding: 0 25px;
+                        }
+                    }
+                    .footer__contact {
+                        padding-left: 25px;
+                        h2 {
+                            font-size: 18px;
+                            margin: 0 0 20px;
+                            text-transform: uppercase;
+                        }
+                        ul {
+                            margin: 0;
+                            padding: 0;
+                            li {
+                                list-style: outside none none;
+                                margin-bottom: 11px;
+                                img {
+                                    width: 25px;
+                                    @media (max-width: 425px) {
+                                        width: 20px;
+                                    }
+                                }
+                                span {
+                                    font-size: 16px;
+                                    margin-left: 6px;
+                                    @media (max-width: 425px) {
+                                        font-size: 12px;
+                                    }
+                                }
+                            }
+                        }
+                        @media (max-width: 575.98px) {
+                           margin-top: 30px;
+                        }
+                    }
+                    .footer__nav {
+                        padding-left: 25px;
+                        h2 {
+                            font-size: 18px;
+                            margin: 0 0 20px;
+                            text-transform: uppercase;
+                        }
+                        ul {
+                            margin: 0;
+                            padding: 0;
+                            li {
+                                list-style: outside none none;
+                                margin-bottom: 13px;
+                                a {
+                                    text-decoration: none;
+                                    transition: all 0.3s ease 0s;
+                                    &:hover {
+                                        color: #008080;
+                                        padding-left: 5px;
+                                    }
+                                    @media (max-width: 425px) {
+                                        font-size: 12px;
+                                    }
+                                    
+                                }
+                            }
+                        }
+                        @media (max-width: 1024.98px) {
+                            margin-top: 30px;
+                        }
+                        @media (max-width: 575.98px) {
+                            padding-left: 25px;
+                        }
+                    }
+                    .footer__subscribe {
+                        h2 {
+                            font-size: 18px;
+                            text-transform: uppercase;
+                            margin: 0 0 20px;
+                        }
+                        p {
+                            font-size: 16px;
+                            @media (max-width: 1024.98px) {
+                                padding: 0;
+                            }
+                            @media (max-width: 425px) {
+                                font-size: 12px;
+                            }
+                        }
+                        @media (max-width: 1024.98px) {
+                            margin-top: 30px;
+                            padding-left: 25px;
+                        }
+                        .subscribe__wrapper {
+                            margin: 26px 0 38px;
+                            .subscribe-form {
+                                position: relative;
+                                @media (max-width: 1024.98px) {
+                                    width: 80%;
+                                }
+                                @media (max-width: 575.98px) {
+                                    width: 65%
+                                }
+                                @media (max-width: 425px) {
+                                    width: 75%
+                                }
+                                .subscribe-form__email {
+                                    input {
+                                        background: #fff none repeat scroll 0 0;
+                                        border: medium none;
+                                        border-radius: 50px;
+                                        box-shadow: 0 0 13px 1.8px rgba(0, 0, 0, 0.05);
+                                        color: #c3c3c3;
+                                        font-size: 13px;
+                                        height: 45px;
+                                        padding: 0 100px 0 15px;
+                                        width: 100%;
+                                    }
+                                }
+                                .subscribe-form__button {
+                                    background: #008080 none repeat scroll 0 0;
+                                    border-radius: 50px;
+                                    bottom: 4px;
+                                    cursor: pointer;
+                                    display: block;
+                                    position: absolute;
+                                    right: 4px;
+                                    top: 4px;
+                                    transition: all 0.3s ease 0s;
+                                    z-index: 999;
+                                    &:hover {
+                                        background: #242424 none repeat scroll 0 0;
+                                    }
+                                    button {
+                                        background: transparent none repeat scroll 0 0;
+                                        border: medium none;
+                                        color: #fff;
+                                        cursor: pointer;
+                                        font-size: 14px;
+                                        font-weight: bold;
+                                        height: auto;
+                                        padding: 8px 23px 11px;
+                                        text-transform: uppercase;
+                                        width: auto;
+                                    }
+                                }
+                            }
+                        }
+                        .social-icons__wrapper {
+                            ul {
+                                margin: 0;
+                                padding: 0;
+                                li {
+                                    padding: 0;
+                                    display: inline-block;
+                                    list-style: outside none none;
+                                    margin-right: 6px;
+                                    a {
+                                        img {
+                                            width: 30px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .copyright__wrapper {
+        border-top: 1px solid #d7d7d7;
+        padding: 17px 0 15px;
+        .container {
+            .col-12 {
+                p {
+                    color: #818181;
+                    text-align: center;
+                    @media (max-width: 425px) {
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+}
